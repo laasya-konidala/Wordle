@@ -30,10 +30,3 @@ This project is a **JavaScript** implementation of the popular Wordle game! Play
 2. **Submit your guess**: Press **Enter** to see the color-coded feedback.
 3. **Make adjustments**: Use **Backspace** to correct your guess before submitting.
 4. **Win or lose**: Keep guessing until you either guess the word correctly or run out of attempts!
-
-
-To run the Wordle game locally:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/wordle-js.git
