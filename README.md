@@ -29,10 +29,13 @@ This project is a **JavaScript** implementation of the popular Wordle game! Play
 1. **Start guessing**: Input a 5-letter word using the on-screen or physical keyboard.
   <img src="images/blank.png" alt="Wordle Game Grid" width="300">
   <img src="images/typing_words.png" alt="User Guessing" width="300">
+  
 2. **Submit your guess**: Press **Enter** to see the color-coded feedback.
   <img src="images/one_guess.png" alt="User's First Guess" width="300">
   <img src="images/second_guess.png" alt="User's First Guess" width="300">
+  
 3. **Make adjustments**: Use **Backspace** to correct your guess before submitting.
+  
 4. **Win or lose**: Keep guessing until you either guess the word correctly or run out of attempts!
   <img src="images/win.png" alt="User Won!" width="300">
   <img src="images/lost.png" alt="User Lost" width="300">
