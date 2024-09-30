@@ -1,8 +1,48 @@
 # Wordle in JavaScript 🚀
-This project is a JavaScript implementation of the popular Wordle game. The game gives the player 6 chances to guess a 5-letter secret word. After each guess, the game will provide feedback on which letters are correct, in the correct position, or absent in the secret word with the wordle color scheme. 
 
-### Features ✨
+This project is a **JavaScript** implementation of the popular Wordle game! Players have 6 chances to guess a secret 5-letter word. After each guess, feedback is provided via a color-coded system that helps players understand which letters are correct and in the right position, which are in the word but misplaced, and which are not in the word at all.
 
-**Guess Words**: Each guess must be a valid 5-letter English word, and you have 6 attempts to guess the correct word. If you guess the word within 6 tries, the game displays a "You won!" message, otherwise, it displays a "You lost!" message with the correct word. 
-**Colored Tiles**: After each guess, the letters of the guess highlight in green if they are correct and in the right position, yellow if the letter is in the word but in the wrong position, and gray if the letter is not in the word. The on-screen keyboard will also color-code keys accordingly.   
-**Keyboard**: The user can guess words for Wordle by either typing on their keyboard or clicking on the on-screen keyboard. The keyboard allows for functionality of the backspace and enter as well. 
+## Features ✨
+
+- **🎯 Word Guessing Challenge**:  
+  Each guess must be a valid 5-letter English word. The player has **6 attempts** to guess the correct word. After each guess, feedback will be given using the Wordle color scheme.  
+  - **"You won!"** is displayed if the word is guessed correctly within 6 tries.  
+  - **"You lost!"** is displayed if the player runs out of guesses, and the correct word will be revealed.
+  
+- **🎨 Color-Coded Feedback**:  
+  After each guess, the tiles change color to provide clues:
+  - 🟩 **Green**: The letter is correct and in the correct position.
+  - 🟨 **Yellow**: The letter is in the word but in the wrong position.
+  - ⬛ **Gray**: The letter is not in the word.
+  
+  The on-screen keyboard also updates its keys with the same color scheme, providing immediate visual feedback.
+
+- **⌨️ Keyboard Input**:  
+  Players can guess words by either:
+  - Typing on their **physical keyboard**, with support for **Enter** and **Backspace** keys.
+  - Clicking on the **on-screen keyboard** with the same functionality as a physical keyboard.
+  
+  Both methods provide seamless interaction for word entry and corrections.
+
+## How to Play 🕹️
+
+1. **Start guessing**: Input a 5-letter word using the on-screen or physical keyboard.
+2. **Submit your guess**: Press **Enter** to see the color-coded feedback.
+3. **Make adjustments**: Use **Backspace** to correct your guess before submitting.
+4. **Win or lose**: Keep guessing until you either guess the word correctly or run out of attempts!
+
+---
+
+## Screenshots 📸
+
+Include screenshots of the game, showing how the grid looks after a guess, how the keyboard changes color, and what the winning/losing messages look like.
+
+---
+
+## Installation & Setup 💻
+
+To run the Wordle game locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/wordle-js.git
