@@ -8,13 +8,13 @@ This project is a **JavaScript** implementation of the popular Wordle game! Play
   Each guess must be a valid 5-letter English word. The player has **6 attempts** to guess the correct word. After each guess, feedback will be given using the Wordle color scheme.  
   - **"You won!"** is displayed if the word is guessed correctly within 6 tries.  
   - **"You lost!"** is displayed if the player runs out of guesses, and the correct word will be revealed.
-  
+![Wordle Game Grid](blank.png)
 - **🎨 Color-Coded Feedback**:  
   After each guess, the tiles change color to provide clues:
   - 🟩 **Green**: The letter is correct and in the correct position.
   - 🟨 **Yellow**: The letter is in the word but in the wrong position.
   - ⬛ **Gray**: The letter is not in the word.
-  
+    
   The on-screen keyboard also updates its keys with the same color scheme, providing immediate visual feedback.
 
 - **⌨️ Keyboard Input**:  
