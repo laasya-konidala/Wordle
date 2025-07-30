@@ -1,6 +1,6 @@
 # Wordle in JavaScript 🚀
 
-This project is a **JavaScript** implementation of the popular Wordle game! Players have 6 chances to guess a secret 5-letter word. After each guess, feedback is provided via a color-coded system that helps players understand which letters are correct and in the right position, which are in the word but misplaced, and which are not in the word at all.
+This project is a **JavaScript** implementation of the popular Wordle game (for CS106AX)! Players have 6 chances to guess a secret 5-letter word. After each guess, feedback is provided via a color-coded system that helps players understand which letters are correct and in the right position, which are in the word but misplaced, and which are not in the word at all.
 
 ## Features ✨
 
